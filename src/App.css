@@ -1,0 +1,50 @@
+.pai{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 100vw ;
+  height: 100vh  ;
+}
+.filho{
+  width: 700px ;
+  height: 500px  ;
+  border-radius: 20px;
+  margin-top: 150px;
+  background-color: black;
+  color: white;
+  padding-left: 10px;
+  margin-bottom: 6px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.cabeçalho{
+  width: 100vw;
+  height: 10vh;
+  position: absolute;
+  top: 0;
+  background-color: black;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.7;
+}
+.formulario{
+  width: 700px;
+  display: flex;
+  justify-content: space-around;
+}
+.input{
+  margin-right: 25px;
+  border-radius: 5px;
+}
+.botao{
+  width: 100px;
+  border-radius: 5px;
+
+}
+.botao:hover{
+  cursor: pointer;
+}
